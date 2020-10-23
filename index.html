@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="content">
+      <div class="input-text">
+        <div class="input-area" oninput="insertText(event)" contenteditable>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button type="button" class="btn btn-primary" onclick="speak()">
+          Falar
+        </button>
+        <button type="button" class="btn btn-sec" onclick="stop()">
+          Parar
+        </button>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
