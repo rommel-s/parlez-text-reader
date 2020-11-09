@@ -12,3 +12,6 @@ function speak() {
 function stop() {
   speechSynthesis.cancel();
 }
+
+let defaultRate = 1.5;
+utterance.rate = defaultRate;
